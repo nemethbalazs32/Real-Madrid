@@ -20,7 +20,7 @@ h1 {
 }
 
 .felirat {
-    background-color: #f8cd3e;
+    background-color: #ffd037;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -69,21 +69,34 @@ font-size: 0.9em;
     border-radius: 20px; 
 }
 .felsok2{
-    background-color: #fff8e1;
+    background-color: #f1e7c6;
     display: flex;
     padding-left: 15px;
     font-size: 0.8em;
+
+
 }
 #felsok2csapat{
     padding-left: 147px;
     font-weight: bold;
+    border-right: 3px solid black;
+    padding-right: 5px;
 }
 #felsok2trofea{
     padding-left: 275px;
     font-weight: bold;
+    border-right: 3px solid black;
+    padding-right: 5px;
 }
 #felsok2jegyek{
     padding-left: 405px;
+    font-weight: bold;
+    border-right: 3px solid black;
+    padding-right: 5px;
+}
+#felsok2real{
+    border-right: 3px solid black;
+    padding-right: 5px;
     font-weight: bold;
 }
 a {
