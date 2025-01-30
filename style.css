@@ -1,0 +1,19 @@
+body{
+
+}
+.header{
+   background-color: #fcc200;
+}
+.head th{
+    padding-left: 15px ;
+    padding-right: 15px ;
+}
+.logo{
+    width: 50px;
+    float: left;
+    padding-right: 30px;
+}
+#logo{
+    font-size: 4em;
+
+}
