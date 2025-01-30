@@ -3,9 +3,10 @@ body {
 }
 
 h1 {
-    margin-right: 20px;
+    margin-left: 20px;
     font-size: 2.3em;
-    font-family: sans-serif
+    font-family: sans-serif;
+    margin-top: 50px;
 }
 
 .logo {
@@ -14,12 +15,12 @@ h1 {
     padding-left: 60px;
     display: flex;
     margin-right: 30px;
+    margin-top: 20px;
 
 }
 
 .felirat {
     background-color: #f8cd3e;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -33,13 +34,44 @@ h1 {
     padding-left: 150px;
     font-size: 1.4em;
     font-weight: bold;
+    
 }
-
+.felsok p{
+    padding-left:  10px;
+    padding-right: 10px;
+    align-items: center;
+}
+#csapat, #csapat2{
+font-size: 0.9em;
+}
+#csapat:hover,
+#csapat2:hover{
+    background-color: #ffd037;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+#trofeak, #trofeak2{
+    font-size: 0.9em;
+}
+#trofeak:hover,
+#trofeak2:hover{
+    background-color: #ffd037;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+#jegyek, #jegyek2{
+    font-size: 0.9em;
+}
+#jegyek:hover,
+#jegyek2:hover{
+    background-color: #ffd037;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
 a {
     text-decoration: none;
     color: black;
 }
-
-a:hover {
-    color: dimgrey;
+#real:hover{
+    color: dimgray;
 }
