@@ -106,3 +106,10 @@ a {
 #real:hover{
     color: dimgray;
 }
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table{
+    margin-left: 50px;
+}
