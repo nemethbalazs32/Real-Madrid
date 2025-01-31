@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+
 }
 
 h1 {
@@ -128,4 +129,13 @@ td{
 table{
     border-left: 3px solid #f1e7c7;
     padding-left: 5px;
+}
+.kupak{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+.kupakep{
+    width: 150px;
 }
