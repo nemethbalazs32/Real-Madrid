@@ -27,7 +27,9 @@ h1 {
     justify-content: flex-start;
     padding-bottom: 20px;
 }
-
+#csapat, #jegyek, #trofeak{
+    border: 2px solid #fcc200;
+}
 .felsok {
     background-color: #fcc200;
     display: flex;
@@ -35,7 +37,7 @@ h1 {
     padding-left: 150px;
     font-size: 1.4em;
     font-weight: bold;
-    
+    height: 2.8em;
 }
 .felsok p{
     padding-left:  10px;
@@ -44,6 +46,7 @@ h1 {
 }
 #csapat, #csapat2{
 font-size: 0.9em;
+border: 2px solid #fcc200;
 }
 #csapat:hover,
 #csapat2:hover{
@@ -53,6 +56,7 @@ font-size: 0.9em;
 }
 #trofeak, #trofeak2{
     font-size: 0.9em;
+    border: 2px solid #fcc200;
 }
 #trofeak:hover,
 #trofeak2:hover{
@@ -62,6 +66,7 @@ font-size: 0.9em;
 }
 #jegyek, #jegyek2{
     font-size: 0.9em;
+    border: 2px solid #fcc200;
 }
 #jegyek:hover,
 #jegyek2:hover{
@@ -138,4 +143,11 @@ table{
 }
 .kupakep{
     width: 150px;
+}
+#kupaszam{
+    font-size: 70px;
+}
+.kupafelirat{
+    padding: 0 30px;
+    font-weight: bold;
 }
