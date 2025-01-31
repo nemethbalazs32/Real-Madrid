@@ -10,6 +10,7 @@ h1 {
     margin-top: 50px;
 }
 
+
 .logo {
     width: 4%;
     height: 4%;
@@ -26,6 +27,7 @@ h1 {
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 20px;
+
 }
 #csapat, #jegyek, #trofeak{
     border: 2px solid #fcc200;
@@ -38,6 +40,8 @@ h1 {
     font-size: 1.4em;
     font-weight: bold;
     height: 2.8em;
+    
+
 }
 .felsok p{
     padding-left:  10px;
@@ -79,7 +83,6 @@ border: 2px solid #fcc200;
     display: flex;
     padding-left: 15px;
     font-size: 0.8em;
-
 
 }
 #felsok2csapat{
@@ -139,15 +142,70 @@ table{
     margin-left: 120px;
     display: flex;
     align-items: center;
+    box-shadow: 10px 10px 20px rgb(199, 199, 199);
+    max-width: 87%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    border: 5px solid white;
     
 }
 .kupakep{
     width: 150px;
+
 }
 #kupaszam{
     font-size: 70px;
+    font-weight: bold;
+    color: #fcc200;
 }
 .kupafelirat{
     padding: 0 30px;
     font-weight: bold;
+}
+#evszamok{
+    line-height: 1.7em;
+}
+#copadelrey{
+    width: 100px;
+    margin: 0 25px 0 25px;
+}
+#klubvb{
+    padding-left: 70px;
+}
+#bl{
+    background-image: url(Képek/24ucl\ celebration.jpg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+#liga{
+    background-image: url(Képek/league.jpg);
+    background-position-x:right ;
+    background-repeat: no-repeat;
+    background-size: 270px;
+}
+#copa{
+background-image: url(Képek/copadelrey.jpg);
+background-size: 270px;
+background-repeat: no-repeat;
+background-position-x:right ;
+}
+#supercup{
+background-image: url(Képek/supercup.jpg);
+background-size: 270px;
+background-repeat: no-repeat;
+background-position-x:right ;
+}
+#clubwc{
+    background-image: url(Képek/clubwc.jpg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position-x:right ;
+}
+#esupercup{
+background-image: url(Képek/esupercup.jpg);
+background-size: 270px;
+background-repeat: no-repeat;
+background-position-x:right ;
 }
