@@ -27,11 +27,18 @@ h1 {
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 20px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
 
 }
-#csapat, #jegyek, #trofeak{
+
+#csapat,
+#jegyek,
+#trofeak {
     border: 2px solid #fcc200;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
 }
+
 .felsok {
     background-color: #fcc200;
     display: flex;
@@ -40,105 +47,138 @@ h1 {
     font-size: 1.4em;
     font-weight: bold;
     height: 2.8em;
-    
-
 }
-.felsok p{
-    padding-left:  10px;
+
+.felsok p {
+    padding-left: 10px;
     padding-right: 10px;
     align-items: center;
 }
-#csapat, #csapat2{
-font-size: 0.9em;
-border: 2px solid #fcc200;
+
+#csapat,
+#csapat2 {
+    font-size: 0.9em;
+    border: 2px solid #fcc200;
+    cursor: pointer;
+    border-radius: 20px;
 }
+
 #csapat:hover,
-#csapat2:hover{
+#csapat2:hover {
     background-color: #ffd037;
     border: 2px solid black;
-    border-radius: 20px; 
+    border-radius: 20px;
+    transform: scale(1.1);
+
 }
-#trofeak, #trofeak2{
+
+#trofeak,
+#trofeak2 {
     font-size: 0.9em;
     border: 2px solid #fcc200;
+    cursor: pointer;
+    border-radius: 20px;
 }
+
 #trofeak:hover,
-#trofeak2:hover{
+#trofeak2:hover {
     background-color: #ffd037;
     border: 2px solid black;
-    border-radius: 20px; 
+    border-radius: 20px;
+    transform: scale(1.1);
 }
-#jegyek, #jegyek2{
+
+#jegyek,
+#jegyek2 {
     font-size: 0.9em;
     border: 2px solid #fcc200;
+    cursor: pointer;
+    border-radius: 20px;
 }
+
 #jegyek:hover,
-#jegyek2:hover{
+#jegyek2:hover {
     background-color: #ffd037;
     border: 2px solid black;
-    border-radius: 20px; 
+    border-radius: 20px;
+    transform: scale(1.1);
 }
-.felsok2{
+
+.felsok2 {
     background-color: #f1e7c7;
     display: flex;
     padding-left: 15px;
     font-size: 0.8em;
 
 }
-#felsok2csapat{
+
+#felsok2csapat {
     padding-left: 147px;
     font-weight: bold;
     border-right: 3px solid black;
     padding-right: 5px;
 }
-#felsok2trofea{
+
+#felsok2trofea {
     padding-left: 275px;
     font-weight: bold;
     border-right: 3px solid black;
     padding-right: 5px;
 }
-#felsok2jegyek{
+
+#felsok2jegyek {
     padding-left: 405px;
     font-weight: bold;
     border-right: 3px solid black;
     padding-right: 5px;
 }
-#felsok2real{
+
+#felsok2real {
     border-right: 3px solid black;
     padding-right: 5px;
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
-#real:hover{
+
+#real:hover {
     color: dimgray;
+    transform: scale(1.1);
+    cursor: pointer;
 }
-td{
+
+td {
     padding-left: 10px;
     padding-right: 10px;
 }
-table{
+
+table {
     margin-left: 50px;
 }
 
-.jatekosok{
+.jatekosok {
     display: flex;
     gap: 270px;
 }
-th{
+
+th {
     text-align: left;
     padding: 10px 20px 10px 0;
 }
-td{
+
+td {
     padding: 0px 20px 10px 0;
 }
-table{
+
+table {
     border-left: 3px solid #f1e7c7;
     padding-left: 5px;
 }
-.kupak{
+
+.kupak {
     margin-left: 120px;
     display: flex;
     align-items: center;
@@ -149,63 +189,122 @@ table{
     margin-bottom: 20px;
     height: 150px;
     border: 5px solid white;
-    
+
 }
-.kupakep{
+
+.kupakep {
     width: 150px;
 
 }
-#kupaszam{
+
+#kupaszam {
     font-size: 70px;
     font-weight: bold;
     color: #fcc200;
 }
-.kupafelirat{
+
+.kupafelirat {
     padding: 0 30px;
     font-weight: bold;
 }
-#evszamok{
+
+#evszamok {
     line-height: 1.7em;
 }
-#copadelrey{
+
+#copadelrey {
     width: 100px;
     margin: 0 25px 0 25px;
 }
-#klubvb{
+
+#klubvb {
     padding-left: 70px;
 }
-#bl{
+
+#bl {
     background-image: url(Képek/24ucl\ celebration.jpg);
     background-position-x: right;
     background-repeat: no-repeat;
 }
-#liga{
+
+#liga {
     background-image: url(Képek/league.jpg);
-    background-position-x:right ;
+    background-position-x: right;
     background-repeat: no-repeat;
     background-size: 270px;
 }
-#copa{
-background-image: url(Képek/copadelrey.jpg);
-background-size: 270px;
-background-repeat: no-repeat;
-background-position-x:right ;
+
+#copa {
+    background-image: url(Képek/copadelrey.jpg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
-#supercup{
-background-image: url(Képek/supercup.jpg);
-background-size: 270px;
-background-repeat: no-repeat;
-background-position-x:right ;
+
+#supercup {
+    background-image: url(Képek/supercup.jpg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
-#clubwc{
+
+#clubwc {
     background-image: url(Képek/clubwc.jpg);
     background-size: 270px;
     background-repeat: no-repeat;
-    background-position-x:right ;
+    background-position-x: right;
 }
-#esupercup{
-background-image: url(Képek/esupercup.jpg);
-background-size: 270px;
-background-repeat: no-repeat;
-background-position-x:right ;
+
+#esupercup {
+    background-image: url(Képek/esupercup.jpg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.jatekter {
+    width: 300px;
+    block-size: 200px;
+    color: white;
+    background-image: url(Képek/letöltés.jpg);
+    background-repeat: no-repeat;
+    background-position: -21px;
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    z-index: 3;
+    border-radius: 110px;
+    border: 10px solid white;
+}
+
+.elsosor {
+    color: white;
+    position: relative;
+    width: 425px;
+    block-size: 300px;
+    background-color: rgb(255, 66, 66);
+    border-radius: 200px;
+    border: 10px solid white;
+    z-index: 2;
+    left: 55px;
+    top: 5px;
+}
+
+.masodiksor {
+    color: white;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border: 10px solid black;
+    width: 560px;
+    block-size: 430px;
+    border-radius: 350px;
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+#stadionfelirat {
+    text-align: center;
+}
+#stadionlink{
+    color: white;
 }
