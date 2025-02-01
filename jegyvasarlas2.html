@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jegyvásárlás</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="felirat">
+        <img class="logo" src="Képek/Real_Madrid_CF.svg.png" alt="">
+        <a href="index.html">
+            <h1 id="real">Real Madrid</h1>
+        </a>
+    </div>
+    <div class="felsok2">
+        <p id="felsok2real">Jegyvásárlás</p>
+    </div>
+    <div class="definelist">
+        <dl>
+            <p id="dl">Teljesárú jegy:</p>
+            <dd id="dd">30.000Ft</dd>
+            <p id="dl">Kedvezményes jegy:</p>
+            <dt>
+                <p id="dt">Diák:6-18 éves korig:</p>
+            </dt>
+            <dd id="dd">24.000Ft</dd>
+            <dt>
+                <p id="dt">Hátrányos helyzetű:</p>
+            <dd id="dd">10.000Ft</dd>
+            </dt>
+        </dl>
+    </div>
+
+
+    <div class="form">
+        <form action="">
+            <label for="vezeteknev">Vezetéknév:</label><br>
+            <input type="text" name="vezeteknev" id="vezeteknev" placeholder="kötelező*"> <br>
+            <label for="keresztnev">Keresztnév:</label> <br>
+            <input type="text" name="keresztnev" id="keresztnev" placeholder="kötelező*"> <br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email" placeholder="kötelező*"><br>
+            <label for="tel">Telefon:</label><br>
+            <input type="number" name="tel" id="tel" placeholder="kötelező*"><br>
+            <label for="modok">Kiszállítási lehetőségek:</label><br>
+            <select name="modok" id="modok">
+                <option value="" placeholder="kötelező*"></option>
+                <option value="hazhozszallitas">Házhozszállítás</option>
+                <option value="emailbenkuldes"> Email-ben küldés</option>
+            </select><br>
+            <div style="text-align: left; margin-left: 865px;">
+                <input type="radio" name="teljesaru" id="teljesaru" value="Teljesárú" class="radio"><label for="teljesaru">Teljesárú</label><br>
+                <input type="radio" name="diak" id="diak" value="Diák" class="radio"><label for="diak">Diák</label><br>
+                <input type="radio" name="fogyi" id="fogyi" value="Hátrányos" class="radio"><label for="fogyi">Hátrányos helyzetű</label><br>
+            </div>
+            <input type="button" name="kartya" id="kartya" value="Kártyaadatok megadása">
+            <input type="button" name="fizetes" id="fizetes" value="Fizetés">
+        </form>
+    </div>
 </body>
+
 </html>

@@ -1,15 +1,12 @@
 body {
     font-family: sans-serif;
-
 }
 
 h1 {
     margin-left: 20px;
     font-size: 2.3em;
-    font-family: sans-serif;
     margin-top: 50px;
 }
-
 
 .logo {
     width: 4%;
@@ -18,7 +15,6 @@ h1 {
     display: flex;
     margin-right: 30px;
     margin-top: 20px;
-
 }
 
 .felirat {
@@ -28,7 +24,6 @@ h1 {
     justify-content: flex-start;
     padding-bottom: 20px;
     transition: transform 0.2s ease, background-color 0.2s ease;
-
 }
 
 #csapat,
@@ -36,7 +31,6 @@ h1 {
 #trofeak {
     border: 2px solid #fcc200;
     transition: transform 0.2s ease, background-color 0.2s ease;
-
 }
 
 .felsok {
@@ -276,7 +270,6 @@ table {
     border-radius: 110px;
     border: 10px solid white;
 }
-
 .elsosor {
     color: white;
     position: relative;
@@ -289,7 +282,6 @@ table {
     left: 55px;
     top: 5px;
 }
-
 .masodiksor {
     color: white;
     position: absolute;
@@ -305,6 +297,86 @@ table {
 #stadionfelirat {
     text-align: center;
 }
-#stadionlink{
+
+#stadionlink {
     color: white;
+}
+
+.form {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+::placeholder {
+    color: rgba(255, 0, 0, 0.603);
+    border-left: 1px solid rgba(255, 0, 0, 0.603);
+    padding-left: 3px;
+}
+input[type="text"],
+input[type="number"]{
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(201, 201, 201);
+    margin-bottom: 10px;
+    height: 20px;
+}
+select{
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(201, 201, 201);
+    margin-bottom: 10px;
+    height: 20px;
+    width: 175px;
+}
+input[type="text"]:hover{
+    transform: scale(1.1);
+}
+input[type="button"]{
+    width: 175px;
+    height: 30px;
+    background-color: white;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(201, 201, 201);
+}
+input[type="button"]:hover{
+    transform: scale(1.1);
+}
+#dd{
+    font-weight: 1.0em;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+#dt{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+#dl{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+.definelist{
+    width: 250px;
+    position: absolute;
+}
+.radio{
+display: inline-block;
+padding: 10px 20px;
+margin: 5px;
+border: 2px solid black;
+border-radius: 20px;
+cursor: pointer;
+transition: background-color 0.3s, border-color 0.3s;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked, .custom-radio{
+    background-color: #ffd037;
+    color: white;
+    
 }
