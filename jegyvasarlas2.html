@@ -18,6 +18,7 @@
     </div>
     <div class="felsok2">
         <p id="felsok2real">Jegyvásárlás</p>
+        <p id="felsok2real">Felső Szektor</p>
     </div>
     <div class="definelist">
         <dl>
@@ -31,6 +32,10 @@
             <dt>
                 <p id="dt">Hátrányos helyzetű:</p>
             <dd id="dd">10.000Ft</dd>
+            </dt>
+            <dt>
+                <p id="dt">Nyugdíjas:</p>
+<dd id="dd">19.000Ft</dd>
             </dt>
         </dl>
     </div>
@@ -46,17 +51,18 @@
             <input type="text" name="email" id="email" placeholder="kötelező*"><br>
             <label for="tel">Telefon:</label><br>
             <input type="number" name="tel" id="tel" placeholder="kötelező*"><br>
+            <label for="lakcim">Lakcím</label><br>
+            <input type="text" name="lakcim" id="lakcim" placeholder="kötelező*"> <br>
             <label for="modok">Kiszállítási lehetőségek:</label><br>
             <select name="modok" id="modok">
                 <option value="" placeholder="kötelező*"></option>
                 <option value="hazhozszallitas">Házhozszállítás</option>
                 <option value="emailbenkuldes"> Email-ben küldés</option>
             </select><br>
-            <div style="text-align: left; margin-left: 865px;">
-                <input type="radio" name="teljesaru" id="teljesaru" value="Teljesárú" class="radio"><label for="teljesaru">Teljesárú</label><br>
-                <input type="radio" name="diak" id="diak" value="Diák" class="radio"><label for="diak">Diák</label><br>
-                <input type="radio" name="fogyi" id="fogyi" value="Hátrányos" class="radio"><label for="fogyi">Hátrányos helyzetű</label><br>
-            </div>
+                <input type="radio" name="jegytipus" id="teljesaru" value="Teljesárú" ><label for="teljesaru">Teljesárú</label><br>
+                <input type="radio" name="jegytipus" id="diak" value="Diák" ><label for="diak">Diák</label><br>
+                <input type="radio" name="jegytipus" id="fogyi" value="Hátrányos" ><label for="fogyi">Hátrányos helyzetű</label><br>
+                <input type="radio" name="jegytipus" id=" nyugger" value="Nyugdíjas" ><label for="nyugger">Nyugdíjas</label><br>
             <input type="button" name="kartya" id="kartya" value="Kártyaadatok megadása">
             <input type="button" name="fizetes" id="fizetes" value="Fizetés">
         </form>

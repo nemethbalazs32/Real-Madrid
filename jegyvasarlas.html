@@ -14,5 +14,60 @@
             <h1 id="real">Real Madrid</h1>
         </a>
     </div>
+</div>
+<div class="felsok2">
+    <p id="felsok2real">Jegyvásárlás</p>
+    <p id="felsok2real">Alsó Szektor</p>
+</div>
+
+    <div class="definelist">
+        <dl>
+            <p id="dl">Teljesárú jegy:</p>
+            <dd id="dd">40.000Ft</dd>
+            <p id="dl">Kedvezményes jegy:</p>
+            <dt>
+                <p id="dt">Diák:6-18 éves korig:</p>
+            </dt>
+            <dd id="dd">30.000Ft</dd>
+            <dt>
+                <p id="dt">Hátrányos helyzetű:</p>
+            <dd id="dd">16.000Ft</dd>
+            </dt>
+            <dt>
+                <p id="dt">Nyugdíjas:</p>
+<dd id="dd">23.000Ft</dd>
+            </dt>
+        </dl>
+    </div>
+
+
+    <div class="form">
+        <form action="">
+            <label for="vezeteknev">Vezetéknév:</label><br>
+            <input type="text" name="vezeteknev" id="vezeteknev" placeholder="kötelező*"> <br>
+            <label for="keresztnev">Keresztnév:</label> <br>
+            <input type="text" name="keresztnev" id="keresztnev" placeholder="kötelező*"> <br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email" placeholder="kötelező*"><br>
+            <label for="tel">Telefon:</label><br>
+            <input type="number" name="tel" id="tel" placeholder="kötelező*"><br>
+            <label for="lakcim">Lakcím</label><br>
+            <input type="text" name="lakcim" id="lakcim" placeholder="kötelező*"> <br>
+            <label for="modok">Kiszállítási lehetőségek:</label><br>
+            <select name="modok" id="modok">
+                <option value="" placeholder="kötelező*"></option>
+                <option value="hazhozszallitas">Házhozszállítás</option>
+                <option value="emailbenkuldes"> Email-ben küldés</option>
+            </select><br>
+            <input type="button" name="kartya" id="kartya" value="Kártyaadatok megadása">
+            <input type="button" name="fizetes" id="fizetes" value="Fizetés">
+            <div class="radio">
+                <input type="radio" name="jegytipus" id="teljesaru" value="Teljesárú" class="radio"><label for="teljesaru">Teljesárú</label><br>
+                <input type="radio" name="jegytipus" id="diak" value="Diák" class="radio"><label for="diak">Diák</label><br>
+                <input type="radio" name="jegytipus" id="fogyi" value="Hátrányos" class="radio"><label for="fogyi">Hátrányos helyzetű</label><br>
+                <input type="radio" name="jegytipus" id=" nyugger" value="Nyugdíjas" class="radio"><label for="nyugger">Nyugdíjas</label><br>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

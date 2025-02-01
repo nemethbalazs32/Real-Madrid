@@ -306,6 +306,7 @@ table {
     text-align: center;
     position: relative;
     z-index: 2;
+    margin: 150px  0 000px;
 }
 
 ::placeholder {
@@ -364,19 +365,8 @@ input[type="button"]:hover{
     position: absolute;
 }
 .radio{
-display: inline-block;
-padding: 10px 20px;
-margin: 5px;
-border: 2px solid black;
-border-radius: 20px;
-cursor: pointer;
-transition: background-color 0.3s, border-color 0.3s;
-}
-input[type="radio"]{
-    display: none;
-}
-input[type="radio"]:checked, .custom-radio{
-    background-color: #ffd037;
-    color: white;
-    
+
+
+position: relative;
+z-index: 3;
 }
