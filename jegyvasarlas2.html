@@ -54,15 +54,18 @@
             <label for="lakcim">Lakcím</label><br>
             <input type="text" name="lakcim" id="lakcim" placeholder="kötelező*"> <br>
             <label for="modok">Kiszállítási lehetőségek:</label><br>
-            <select name="modok" id="modok">
+            <select name="modok" id="jegy">
                 <option value="" placeholder="kötelező*"></option>
                 <option value="hazhozszallitas">Házhozszállítás</option>
                 <option value="emailbenkuldes"> Email-ben küldés</option>
             </select><br>
-                <input type="radio" name="jegytipus" id="teljesaru" value="Teljesárú" ><label for="teljesaru">Teljesárú</label><br>
-                <input type="radio" name="jegytipus" id="diak" value="Diák" ><label for="diak">Diák</label><br>
-                <input type="radio" name="jegytipus" id="fogyi" value="Hátrányos" ><label for="fogyi">Hátrányos helyzetű</label><br>
-                <input type="radio" name="jegytipus" id=" nyugger" value="Nyugdíjas" ><label for="nyugger">Nyugdíjas</label><br>
+            <select name="jegyek" id="jegy">
+                <option value=""></option>
+                <option value="Teljesárú">Teljesárú</option>
+                <option value="Diák">Diák</option>
+                <option value="Hátrányos">Hátrányos helyzetű</option>
+                <option value="Nyugdíjas">Nyugdíjas</option>
+            </select><br>
             <input type="button" name="kartya" id="kartya" value="Kártyaadatok megadása">
             <input type="button" name="fizetes" id="fizetes" value="Fizetés">
         </form>
