@@ -389,8 +389,53 @@ input[type="button"]:hover {
 
 .bemut {
     box-shadow: 15px 15px 20px rgb(199, 199, 199) ;
-    border-radius: 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 30px;
+    width: 1300px;
+    margin: auto;
+    background-image: url(Képek/team\ pic.jpg);
+    background-position: 650px;
+    background-size: 62%;
+    line-height: 40px;
+    background-repeat: no-repeat;
+    border: 9px solid white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    transition: transform 1s ease;
 }
-#bemut{
-    
+.bemut p{
+    margin-right: 700px;
+}
+.bemut:hover{
+    transform: scale(1.05);
+}
+.bemut2{
+    box-shadow: 15px 15px 20px rgb(199, 199, 199) ;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 30px;
+    width: 1300px;
+    margin: auto;
+    background-image: url(Képek/3bd6b31f96f27ca42607fb616c22666c.jpg);
+    background-position: -150px;
+    background-size: 62%;
+    line-height: 40px;
+    background-repeat: no-repeat;
+    border: 9px solid white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    transition: transform 1s ease;
+    margin-bottom: 100px;
+}
+.bemut2 p{
+    margin-left: 689px;
+}
+.bemut2:hover{
+    transform: scale(1.05);
+
 }
