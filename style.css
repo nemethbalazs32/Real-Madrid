@@ -63,7 +63,6 @@ h1 {
     border: 2px solid black;
     border-radius: 20px;
     transform: scale(1.1);
-
 }
 
 #trofeak,
@@ -270,6 +269,7 @@ table {
     border-radius: 110px;
     border: 10px solid white;
 }
+
 .elsosor {
     color: white;
     position: relative;
@@ -282,6 +282,7 @@ table {
     left: 55px;
     top: 5px;
 }
+
 .masodiksor {
     color: white;
     position: absolute;
@@ -293,7 +294,8 @@ table {
     margin-top: 150px;
     margin-left: 600px;
 }
-select{
+
+select {
     border: 0px;
     border-radius: 6px;
     box-shadow: 5px 5px 5px rgb(201, 201, 201);
@@ -301,6 +303,7 @@ select{
     height: 20px;
     width: 175px;
 }
+
 #stadionfelirat {
     text-align: center;
 }
@@ -313,7 +316,7 @@ select{
     text-align: center;
     position: relative;
     z-index: 2;
-    margin: 150px  0 000px;
+    margin: 150px 0 000px;
 }
 
 ::placeholder {
@@ -321,8 +324,9 @@ select{
     border-left: 1px solid rgba(255, 0, 0, 0.603);
     padding-left: 3px;
 }
+
 input[type="text"],
-input[type="number"]{
+input[type="number"] {
     border: 0px;
     border-radius: 6px;
     box-shadow: 5px 5px 5px rgb(201, 201, 201);
@@ -331,10 +335,11 @@ input[type="number"]{
 }
 
 
-input[type="text"]:hover{
+input[type="text"]:hover {
     transform: scale(1.1);
 }
-input[type="button"]{
+
+input[type="button"] {
     width: 175px;
     height: 30px;
     background-color: white;
@@ -342,35 +347,50 @@ input[type="button"]{
     border-radius: 6px;
     box-shadow: 5px 5px 5px rgb(201, 201, 201);
 }
-input[type="button"]:hover{
+
+input[type="button"]:hover {
     transform: scale(1.1);
 }
-#dd{
+
+#dd {
     font-weight: 1.0em;
     border: 1px solid black;
     text-align: center;
     border-radius: 10px;
 }
-#dt{
+
+#dt {
     font-weight: 500;
     font-size: 1.2em;
     margin-left: 20px;
 }
-#dl{
+
+#dl {
     font-weight: bold;
     font-size: 1.4em;
     text-decoration: underline;
 }
-.definelist{
+
+.definelist {
     width: 250px;
     position: absolute;
 }
-.radio{
+
+.radio {
 
 
-position: relative;
-z-index: 3;
+    position: relative;
+    z-index: 3;
 }
-#jegy{
+
+#jegy {
     border: 2px solid #ffd037;
+}
+
+.bemut {
+    box-shadow: 15px 15px 20px rgb(199, 199, 199) ;
+    border-radius: 20px;
+}
+#bemut{
+    
 }
