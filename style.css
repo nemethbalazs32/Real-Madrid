@@ -172,8 +172,8 @@ table {
 }
 
 .kupak {
-    margin-left: 120px;
     display: flex;
+    margin-left: 120px;
     align-items: center;
     box-shadow: 10px 10px 20px rgb(199, 199, 199);
     max-width: 87%;
@@ -194,15 +194,18 @@ table {
     font-size: 70px;
     font-weight: bold;
     color: #fcc200;
+    cursor: default;
 }
 
 .kupafelirat {
     padding: 0 30px;
     font-weight: bold;
+    cursor: default;
 }
 
 #evszamok {
     line-height: 1.7em;
+    cursor: default;
 }
 
 #copadelrey {
@@ -388,6 +391,7 @@ input[type="button"]:hover {
 }
 
 .bemut {
+    display: flex;
     box-shadow: 15px 15px 20px rgb(199, 199, 199) ;
     border-radius: 25px;
     font-size: 25px;
@@ -401,13 +405,13 @@ input[type="button"]:hover {
     background-repeat: no-repeat;
     border: 9px solid white;
     height: 400px;
-    display: flex;
     align-items: center;
     margin-top: 20px;
     transition: transform 1s ease;
 }
 .bemut p{
     margin-right: 700px;
+    cursor: default;
 }
 .bemut:hover{
     transform: scale(1.05);
@@ -434,6 +438,7 @@ input[type="button"]:hover {
 }
 .bemut2 p{
     margin-left: 689px;
+    cursor: default;
 }
 .bemut2:hover{
     transform: scale(1.05);
